@@ -4,7 +4,7 @@ client.once("ready", () => {
   console.log("Ready!");
 });
 
-const config = require("./config.json");
+const config = require("./config.json"); // Prefix and token
 client.login(config.token);
 
 client.on("message", (message) => {
