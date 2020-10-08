@@ -1,15 +1,15 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "-";
 client.once("ready", () => {
   console.log("Ready!");
 });
 
-client.login("Njk3OTc3Mzk0MTkwODc2Njky.XvacGQ.5SUNPrNY7Dc3oVCwOBtlsiUOX00");
+const config = require("./config.json");
+client.login(config.token);
 
 client.on("message", (message) => {
-  if (message.content.startsWith(prefix) || !message.author.bot) {
-    const args = message.content.slice(prefix.length).split(" ");
+  if (message.content.startsWith(config.prefix) || !message.author.bot) {
+    const args = message.content.slice(config.prefix.length).split(" ");
     switch (args[0]) {
       case "hzv":
         message.channel.send("Hitzone value");
