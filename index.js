@@ -18,7 +18,7 @@ client.on("message", (message) => {
         message.channel.send("Kinsect extracts");
         break;
       default:
-        message.channel.send("Idiot");
+        message.channel.send("Command does not exist");
         break;
     }
   }
