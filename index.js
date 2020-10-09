@@ -28,9 +28,6 @@ client.on("message", (message) => {
     case "hzv":
       client.commands.get(command).execute(message, args);
       break;
-    case "ke":
-      message.channel.send("Kinsect extracts");
-      break;
     default:
       message.channel.send("That isn't a command");
       break;
