@@ -1,0 +1,114 @@
+{
+    "Part": {
+        "Head": {
+            "Sever": 43,
+            "Blunt": 55,
+            "Ranged": 45,
+            "Fire": 20,
+            "Water": 10,
+            "Thunder": 15,
+            "Ice": 5,
+            "Dragon": 15
+        },
+        "Neck": {
+            "Sever": 37,
+            "Blunt": 37,
+            "Ranged": 25,
+            "Fire": 15,
+            "Water": 10,
+            "Thunder": 10,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Throat": {
+            "Sever": 65,
+            "Blunt": 45,
+            "Ranged": 45,
+            "Fire": 25,
+            "Water": 10,
+            "Thunder": 15,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Back": {
+            "Sever": 45,
+            "Blunt": 45,
+            "Ranged": 35,
+            "Fire": 20,
+            "Water": 5,
+            "Thunder": 10,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Body": {
+            "Sever": 23,
+            "Blunt": 23,
+            "Ranged": 18,
+            "Fire": 15,
+            "Water": 5,
+            "Thunder": 10,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Forelegs": {
+            "Sever": 23,
+            "Blunt": 23,
+            "Ranged": 18,
+            "Fire": 15,
+            "Water": 5,
+            "Thunder": 5,
+            "Ice": 5,
+            "Dragon": 5
+        },
+        "Hindlegs": {
+            "Sever": 30,
+            "Blunt": 30,
+            "Ranged": 25,
+            "Fire": 15,
+            "Water": 5,
+            "Thunder": 10,
+            "Ice": 5,
+            "Dragon": 5
+        },
+        "Tail Base": {
+            "Sever": 37,
+            "Blunt": 32,
+            "Ranged": 25,
+            "Fire": 20,
+            "Water": 10,
+            "Thunder": 15,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Tail": {
+            "Sever": 37,
+            "Blunt": 32,
+            "Ranged": 25,
+            "Fire": 25,
+            "Water": 10,
+            "Thunder": 15,
+            "Ice": 10,
+            "Dragon": 10
+        },
+        "Tail Crystalized": {
+            "Sever": 18,
+            "Blunt": 24,
+            "Ranged": 15,
+            "Fire": 35,
+            "Water": 5,
+            "Thunder": 20,
+            "Ice": 5,
+            "Dragon": 5
+        },
+        "Tail Sharpened": {
+            "Sever": 65,
+            "Blunt": 60,
+            "Ranged": 50,
+            "Fire": 20,
+            "Water": 10,
+            "Thunder": 10,
+            "Ice": 10,
+            "Dragon": 15
+        }
+    }
+}
