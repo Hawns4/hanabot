@@ -17,16 +17,19 @@ client.on("ready", () => {
 
 client.login(token);
 
+//Command handling
 client.on("message", (message) => {
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
+  if (!message.content.startsWith(prefix) || message.author.bot) return; // Ignore all bot/non-command messages
 
+  // Get message command
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   const commandName = args.shift().toLowerCase();
 
-  if (!client.commands.has(commandName)) return;
+  if (!client.commands.has(commandName)) return; // Check if command exists
 
-  const command = client.commands.get(commandName);
+  const command = client.commands.get(commandName); // Get the command
 
+  // Check if command arguments are met
   if (command.args && !args.length) {
     if (command.usage) {
       return message.channel.send(`The proper syntax for \`${prefix}${command.name}\` is: \`${prefix}${command.name} ${command.usage}\``)
