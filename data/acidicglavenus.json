@@ -1,114 +1,108 @@
 {
-    "Part": {
-        "Head": {
-            "Sever": 43,
-            "Blunt": 55,
-            "Ranged": 45,
-            "Fire": 20,
-            "Water": 10,
-            "Thunder": 15,
-            "Ice": 5,
-            "Dragon": 15
+    "Type": {
+        "Sever": {
+            "Head": 43,
+            "Neck": 37,
+            "Throat": 65,
+            "Back": 45,
+            "Body": 23,
+            "Forelegs": 23,
+            "Hindlegs": 30,
+            "Tail Base": 37,
+            "Tail": 37,
+            "Tail Crystalized": 18,
+            "Tail Sharpened": 65
         },
-        "Neck": {
-            "Sever": 37,
-            "Blunt": 37,
-            "Ranged": 25,
-            "Fire": 15,
-            "Water": 10,
-            "Thunder": 10,
-            "Ice": 10,
-            "Dragon": 10
+        "Blunt": {
+            "Head": 55,
+            "Neck": 37,
+            "Throat": 45,
+            "Back": 45,
+            "Body": 23,
+            "Forelegs": 23,
+            "Hindlegs": 30,
+            "Tail Base": 32,
+            "Tail": 32,
+            "Tail Crystalized": 24,
+            "Tail Sharpened": 60
         },
-        "Throat": {
-            "Sever": 65,
-            "Blunt": 45,
-            "Ranged": 45,
-            "Fire": 25,
-            "Water": 10,
-            "Thunder": 15,
-            "Ice": 10,
-            "Dragon": 10
+        "Ranged": {
+            "Head": 45,
+            "Neck": 25,
+            "Throat": 45,
+            "Back": 35,
+            "Body": 18,
+            "Forelegs": 18,
+            "Hindlegs": 25,
+            "Tail Base": 25,
+            "Tail": 25,
+            "Tail Crystalized": 15,
+            "Tail Sharpened": 50
         },
-        "Back": {
-            "Sever": 45,
-            "Blunt": 45,
-            "Ranged": 35,
-            "Fire": 20,
-            "Water": 5,
-            "Thunder": 10,
-            "Ice": 10,
-            "Dragon": 10
+        "Fire": {
+            "Head": 20,
+            "Neck": 15,
+            "Throat": 25,
+            "Back": 20,
+            "Body": 15,
+            "Forelegs": 15,
+            "Hindlegs": 15,
+            "Tail Base": 20,
+            "Tail": 25,
+            "Tail Crystalized": 35,
+            "Tail Sharpened": 20
         },
-        "Body": {
-            "Sever": 23,
-            "Blunt": 23,
-            "Ranged": 18,
-            "Fire": 15,
-            "Water": 5,
-            "Thunder": 10,
-            "Ice": 10,
-            "Dragon": 10
+        "Water": {
+            "Head": 10,
+            "Neck": 10,
+            "Throat": 10,
+            "Back": 5,
+            "Body": 5,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail Base": 10,
+            "Tail": 10,
+            "Tail Crystalized": 5,
+            "Tail Sharpened": 10
         },
-        "Forelegs": {
-            "Sever": 23,
-            "Blunt": 23,
-            "Ranged": 18,
-            "Fire": 15,
-            "Water": 5,
-            "Thunder": 5,
-            "Ice": 5,
-            "Dragon": 5
+        "Thunder": {
+            "Head": 15,
+            "Neck": 10,
+            "Throat": 15,
+            "Back": 19,
+            "Body": 10,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail Base": 10,
+            "Tail": 10,
+            "Tail Crystalized": 5,
+            "Tail Sharpened": 10
         },
-        "Hindlegs": {
-            "Sever": 30,
-            "Blunt": 30,
-            "Ranged": 25,
-            "Fire": 15,
-            "Water": 5,
-            "Thunder": 10,
-            "Ice": 5,
-            "Dragon": 5
+        "Ice": {
+            "Head": 15,
+            "Neck": 10,
+            "Throat": 10,
+            "Back": 10,
+            "Body": 10,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail Base": 10,
+            "Tail": 10,
+            "Tail Crystalized": 5,
+            "Tail Sharpened": 10
         },
-        "Tail Base": {
-            "Sever": 37,
-            "Blunt": 32,
-            "Ranged": 25,
-            "Fire": 20,
-            "Water": 10,
-            "Thunder": 15,
-            "Ice": 10,
-            "Dragon": 10
-        },
-        "Tail": {
-            "Sever": 37,
-            "Blunt": 32,
-            "Ranged": 25,
-            "Fire": 25,
-            "Water": 10,
-            "Thunder": 15,
-            "Ice": 10,
-            "Dragon": 10
-        },
-        "Tail Crystalized": {
-            "Sever": 18,
-            "Blunt": 24,
-            "Ranged": 15,
-            "Fire": 35,
-            "Water": 5,
-            "Thunder": 20,
-            "Ice": 5,
-            "Dragon": 5
-        },
-        "Tail Sharpened": {
-            "Sever": 65,
-            "Blunt": 60,
-            "Ranged": 50,
-            "Fire": 20,
-            "Water": 10,
-            "Thunder": 10,
-            "Ice": 10,
-            "Dragon": 15
+        "Dragon": {
+            "Head": 15,
+            "Neck": 10,
+            "Throat": 10,
+            "Back": 10,
+            "Body": 10,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail Base": 10,
+            "Tail": 10,
+            "Tail Crystalized": 5,
+            "Tail Sharpened": 15
         }
     }
 }
