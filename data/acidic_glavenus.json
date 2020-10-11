@@ -1,4 +1,36 @@
 {
+    "Simple": {
+        "Head": {
+            "Sever": "**",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Back": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Tail": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Elements": {
+            "Fire": "***",
+            "Water": "*",
+            "Thunder": "**",
+            "Ice": "*",
+            "Dragon": "**(*)",
+            "Extra": "() when crystalized"
+        },
+        "Ailments": {
+            "Poison": "**",
+            "Sleep": "**",
+            "Paralysis": "**",
+            "Blast": "**",
+            "Stun": "**"
+        }
+    },
     "Sever": {
         "Head": 43,
         "Neck": 37,
@@ -7,10 +39,10 @@
         "Body": 23,
         "Forelegs": 23,
         "Hindlegs": 30,
-        "Tail Base": 37,
+        "Tail (Base)": 37,
         "Tail": 37,
-        "Tail Crystalized": 18,
-        "Tail Sharpened": 65
+        "Tail (Crystalized)": 18,
+        "Tail (Sharpened)": 65
     },
     "Blunt": {
         "Head": 55,
@@ -20,10 +52,10 @@
         "Body": 23,
         "Forelegs": 23,
         "Hindlegs": 30,
-        "Tail Base": 32,
+        "Tail (Base)": 32,
         "Tail": 32,
-        "Tail Crystalized": 24,
-        "Tail Sharpened": 60
+        "Tail (Crystalized)": 24,
+        "Tail (Sharpened)": 60
     },
     "Ranged": {
         "Head": 45,
@@ -33,10 +65,10 @@
         "Body": 18,
         "Forelegs": 18,
         "Hindlegs": 25,
-        "Tail Base": 25,
+        "Tail (Base)": 25,
         "Tail": 25,
-        "Tail Crystalized": 15,
-        "Tail Sharpened": 50
+        "Tail (Crystalized)": 15,
+        "Tail (Sharpened)": 50
     },
     "Fire": {
         "Head": 20,
@@ -46,10 +78,10 @@
         "Body": 15,
         "Forelegs": 15,
         "Hindlegs": 15,
-        "Tail Base": 20,
+        "Tail (Base)": 20,
         "Tail": 25,
-        "Tail Crystalized": 35,
-        "Tail Sharpened": 20
+        "Tail (Crystalized)": 35,
+        "Tail (Sharpened)": 20
     },
     "Water": {
         "Head": 10,
@@ -59,10 +91,10 @@
         "Body": 5,
         "Forelegs": 5,
         "Hindlegs": 5,
-        "Tail Base": 10,
+        "Tail (Base)": 10,
         "Tail": 10,
-        "Tail Crystalized": 5,
-        "Tail Sharpened": 10
+        "Tail (Crystalized)": 5,
+        "Tail (Sharpened)": 10
     },
     "Thunder": {
         "Head": 15,
@@ -72,10 +104,10 @@
         "Body": 10,
         "Forelegs": 5,
         "Hindlegs": 5,
-        "Tail Base": 10,
+        "Tail (Base)": 10,
         "Tail": 10,
-        "Tail Crystalized": 5,
-        "Tail Sharpened": 10
+        "Tail (Crystalized)": 5,
+        "Tail (Sharpened)": 10
     },
     "Ice": {
         "Head": 15,
@@ -85,10 +117,10 @@
         "Body": 10,
         "Forelegs": 5,
         "Hindlegs": 5,
-        "Tail Base": 10,
+        "Tail (Base)": 10,
         "Tail": 10,
-        "Tail Crystalized": 5,
-        "Tail Sharpened": 10
+        "Tail (Crystalized)": 5,
+        "Tail (Sharpened)": 10
     },
     "Dragon": {
         "Head": 15,
@@ -98,9 +130,9 @@
         "Body": 10,
         "Forelegs": 5,
         "Hindlegs": 5,
-        "Tail Base": 10,
+        "Tail (Base)": 10,
         "Tail": 10,
-        "Tail Crystalized": 5,
-        "Tail Sharpened": 15
+        "Tail (Crystalized)": 5,
+        "Tail (Sharpened)": 15
     }
 }

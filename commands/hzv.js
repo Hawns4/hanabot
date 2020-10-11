@@ -7,18 +7,24 @@ module.exports = {
         const fs = require("fs");
         const validDamageTypes = ["Sever", "Blunt", "Ranged", "Fire", "Water", "Thunder", "Ice", "Dragon"];
 
-        //Get damage type
-        let damageType = args.pop().toLowerCase();
-        damageType = damageType.charAt(0).toUpperCase() + damageType.slice(1);
-        if (!validDamageTypes.includes(damageType)) return message.channel.send("Invalid damage type, the accepted damage types are: " + validDamageTypes.join(", "));
+        for (let i = 0; i < args.length; i++) {
+            args[i] = args[i].charAt(0).toUpperCase() + args[i].slice(1);
+        }
 
-        //Read args to find which monster file to search for
         try {
-            let monsterFileName = args.join("_").toLowerCase();
-            const monster = JSON.parse(fs.readFileSync(`./data/${monsterFileName}.json`));
-
-            //TODO: Send hitzone values from read JSON
-            message.channel.send("Not yet implemented");
+            const damageType = args[args.length - 1];
+            if (validDamageTypes.includes(damageType)) {
+                args.pop();
+                const monsterName = args.join("_");
+                const monster = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
+                //TODO: Send embedded hitzone values from JSON
+                return message.channel.send("Not yet implemented");
+            } else {
+                const monsterName = args.join("_");
+                const monster = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
+                //TODO: Send embedded hitzone values from JSON
+                return message.channel.send({ files: [`./data/${monsterName}.png`] });
+            }
         } catch (err) {
             message.channel.send("I couldn't find a monster by that name.\nPlease check the spelling of the name and try again.");
         }
