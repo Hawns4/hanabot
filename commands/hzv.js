@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 module.exports = {
     name: "hzv",
     description: "Displays Hitzone Value",
@@ -18,15 +20,22 @@ module.exports = {
                 const monsterName = args.join("_");
                 const monster = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
                 //TODO: Send embedded hitzone values from JSON
-                return message.channel.send("Not yet implemented");
+                return message.channel.send(createEmbed(monsterName, damageType));
             } else {
                 const monsterName = args.join("_");
                 const monster = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
                 //TODO: Send embedded hitzone values from JSON
-                return message.channel.send({ files: [`./data/${monsterName}.png`] });
+                return message.channel.send(createEmbed(monsterName));
             }
         } catch (err) {
             message.channel.send("I couldn't find a monster by that name.\nPlease check the spelling of the name and try again.");
         }
     },
 };
+
+createEmbed = (monsterName, damageType) => {
+    let embeddedData = new Discord.MessageEmbed();
+    embeddedData.attachFiles([`./data/${monsterName}.png`])
+    embeddedData.setThumbnail(`attachment://${monsterName}.png`);
+    return embeddedData;
+}
