@@ -12,42 +12,42 @@ module.exports = {
         }
 
         try {
-            let damageType = args[args.length - 1];
-            if (damageType === "Advanced") {
+            // TODO debug simple displayType
+            let displayType = args[args.length - 1];
+            if (displayType === "Advanced") {
                 args.pop();
             } else {
-                damageType === "Simple";
+                displayType = "Simple";
             }
             const monsterName = args.join("_");
-            return message.channel.send(createEmbed(monsterName, damageType));
+            return message.channel.send(createEmbed(monsterName, displayType));
         } catch (err) {
-            console.log(err);
             message.channel.send("I couldn't find a monster by that name.\nPlease check the spelling of the name and try again.");
         }
     },
 };
 
-createEmbed = (monsterName, damageType) => {
+createEmbed = (monsterName, displayType) => {
     let monsterData = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
-    monsterData = monsterData[damageType];
+    // TODO debug not grabbing simple data
+    monsterData = monsterData[displayType];
     let embed = new Discord.MessageEmbed();
-    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${damageType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
-    parseData(embed, monsterData);
+    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
+    parseData(embed, monsterData, displayType);
     return embed;
 }
 
-parseData = (embed, monsterData) => {
+parseData = (embed, monsterData, displayType) => {
     for (data in monsterData) {
         if (monsterData.hasOwnProperty(data)) {
             let childData = monsterData[data];
             let description = "";
             for (partValue in childData) {
                 let hzvData = "";
-                // TODO: Debug simple data embed
-                if (typeof childData[partValue] === "string" && childData[partValue].contains("\*")) {
-                    hzvData = childData[partValue].replace(/\*/g, "⭐");
-                } else {
+                if (displayType === "Advanced") {
                     hzvData = childData[partValue];
+                } else {
+                    hzvData = childData[partValue].replace(/\*/g, "⭐");
                 }
                 description += partValue + ": " + hzvData + "\n";
             }
