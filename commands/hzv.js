@@ -47,7 +47,7 @@ parseData = (embed, monsterData, displayType) => {
                 if (displayType === "Advanced") {
                     hzvData = childData[partValue];
                 } else {
-                    hzvData = childData[partValue].replace(/\*/g, "⭐");
+                    hzvData = childData[partValue].replace(/\*/g, "⭐").replace(/x/g, "❌");
                 }
                 description += partValue + ": " + hzvData + "\n";
             }

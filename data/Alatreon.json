@@ -1,0 +1,48 @@
+{
+    "Simple": {
+        "Head": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "**"
+        },
+        "Tail": {
+            "Sever": "**",
+            "Blunt": "**",
+            "Ranged": "**"
+        },
+        "Forelegs": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "*"
+        },
+        "Fire Active": {
+            "Fire": "x",
+            "Water": "**",
+            "Thunder": "*",
+            "Ice": "***",
+            "Dragon": "*"
+        },
+        "Ice Active": {
+            "Fire": "***",
+            "Water": "*",
+            "Thunder": "**",
+            "Ice": "x",
+            "Dragon": "*"
+        },
+        "Dragon Active": {
+            "Fire": "*",
+            "Water": "*",
+            "Thunder": "*",
+            "Ice": "*",
+            "Dragon": "**"
+        },
+        "Ailments": {
+            "Poison": "*",
+            "Sleep": "*",
+            "Paralysis": "*",
+            "Blast": "*",
+            "Stun": "*"
+        }
+    },
+    "Advanced": {}
+}
