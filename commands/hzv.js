@@ -5,20 +5,18 @@ module.exports = {
     name: "hzv",
     description: "Displays Hitzone Value",
     args: true,
-    usage: "<Monster Name> <Damage Type>",
+    usage: "<Monster Name> [advanced]",
     execute(message, args) {
-        const validDamageTypes = ["Sever", "Blunt", "Ranged", "Fire", "Water", "Thunder", "Ice", "Dragon"];
-
         for (let i = 0; i < args.length; i++) {
             args[i] = args[i].charAt(0).toUpperCase() + args[i].slice(1);
         }
 
         try {
             let damageType = args[args.length - 1];
-            if (validDamageTypes.includes(damageType)) {
+            if (damageType === "Advanced") {
                 args.pop();
             } else {
-                damageType = "Simple";
+                damageType === "Simple";
             }
             const monsterName = args.join("_");
             return message.channel.send(createEmbed(monsterName, damageType));
@@ -32,7 +30,28 @@ module.exports = {
 createEmbed = (monsterName, damageType) => {
     let monsterData = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
     monsterData = monsterData[damageType];
-    let embeddedData = new Discord.MessageEmbed();
-    embeddedData.setTitle(monsterName.split("_").join(" ")).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
-    return embeddedData;
+    let embed = new Discord.MessageEmbed();
+    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${damageType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
+    parseData(embed, monsterData);
+    return embed;
+}
+
+parseData = (embed, monsterData) => {
+    for (data in monsterData) {
+        if (monsterData.hasOwnProperty(data)) {
+            let childData = monsterData[data];
+            let description = "";
+            for (partValue in childData) {
+                let hzvData = "";
+                // TODO: Debug simple data embed
+                if (typeof childData[partValue] === "string" && childData[partValue].contains("\*")) {
+                    hzvData = childData[partValue].replace(/\*/g, "⭐");
+                } else {
+                    hzvData = childData[partValue];
+                }
+                description += partValue + ": " + hzvData + "\n";
+            }
+            embed.addField(data, description, true);
+        }
+    }
 }
