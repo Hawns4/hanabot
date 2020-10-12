@@ -22,7 +22,9 @@ module.exports = {
             const monsterName = args.join("_");
             return message.channel.send(createEmbed(monsterName, displayType));
         } catch (err) {
-            message.channel.send("I couldn't find a monster by that name.\nPlease check the spelling of the name and try again.");
+            message.channel.send("I couldn't find a monster by that name.");
+            message.channel.send("Please check the spelling of the name and try again.");
+            message.channel.send("Note: Due to the amount of advanced data associated with Alatreon and Safi'jiiva, you must type ```<fire|ice|dragon> Active Alatreon advanced\nor\n[broken|critical] Safi'jiiva advanced\nWords encased in \"<>\" are mandatory, \"[]\" are optional, and words separated by \"|\" are the valid choices```");
         }
     },
 };
