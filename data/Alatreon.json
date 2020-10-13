@@ -43,15 +43,5 @@
             "Blast": "*",
             "Stun": "*"
         }
-    },
-    "Advanced": {
-        "Sever": {},
-        "Blunt": {},
-        "Ranged": {},
-        "Fire": {},
-        "Water": {},
-        "Thunder": {},
-        "Ice": {},
-        "Dragon": {}
     }
 }
