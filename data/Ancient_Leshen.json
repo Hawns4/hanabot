@@ -1,0 +1,83 @@
+{
+    "Simple": {
+        "Antlers": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Body": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Legs": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Elements": {
+            "Fire": "***",
+            "Water": "x",
+            "Thunder": "**",
+            "Ice": "*",
+            "Dragon": "**"
+        },
+        "Ailments": {
+            "Poison": "**",
+            "Sleep": "x",
+            "Paralysis": "*",
+            "Blast": "*",
+            "Stun": "*"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 65,
+            "Body": 45,
+            "Arms": 45,
+            "Legs": 45
+        },
+        "Blunt": {
+            "Head": 65,
+            "Body": 45,
+            "Arms": 45,
+            "Legs": 45
+        },
+        "Ranged": {
+            "Head": 50,
+            "Body": 25,
+            "Arms": 30,
+            "Legs": 30
+        },
+        "Fire": {
+            "Head": 25,
+            "Body": 20,
+            "Arms": 20,
+            "Legs": 20
+        },
+        "Water": {
+            "Head": 0,
+            "Body": 0,
+            "Arms": 0,
+            "Legs": 0
+        },
+        "Thunder": {
+            "Head": 15,
+            "Body": 10,
+            "Arms": 10,
+            "Legs": 10
+        },
+        "Ice": {
+            "Head": 10,
+            "Body": 5,
+            "Arms": 5,
+            "Legs": 5
+        },
+        "Dragon": {
+            "Head": 15,
+            "Body": 10,
+            "Arms": 10,
+            "Legs": 10
+        }
+    }
+}
