@@ -24,7 +24,6 @@ module.exports = {
         } catch (err) {
             message.channel.send("I couldn't find a monster by that name.");
             message.channel.send("Please check the spelling of the name and try again.");
-            message.channel.send("Note: Due to the amount of advanced data associated with Alatreon and Safi'jiiva, you must type: ```-hzv Alatreon <fire|ice|dragon> active advanced\nor\n-hzv [broken|critical] Safi'jiiva advanced\nWords encased in \"<>\" are mandatory, \"[]\" are optional, and words separated by \"|\" are the valid choices```");
         }
     },
 };
