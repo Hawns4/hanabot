@@ -22,7 +22,8 @@ module.exports = {
             const monsterName = args.join("_");
             return message.channel.send(createEmbed(monsterName, displayType));
         } catch (err) {
-            message.channel.send("I couldn't find a monster by that name.\nPlease check the spelling of the name and try again.");
+            message.channel.send("I couldn't find a monster by that name.");
+            message.channel.send("Please check the spelling of the name and try again.");
         }
     },
 };
@@ -32,7 +33,7 @@ createEmbed = (monsterName, displayType) => {
     // TODO debug not grabbing simple data
     monsterData = monsterData[displayType];
     let embed = new Discord.MessageEmbed();
-    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
+    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./icons/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
     parseData(embed, monsterData, displayType);
     return embed;
 }
@@ -47,7 +48,7 @@ parseData = (embed, monsterData, displayType) => {
                 if (displayType === "Advanced") {
                     hzvData = childData[partValue];
                 } else {
-                    hzvData = childData[partValue].replace(/\*/g, "⭐");
+                    hzvData = childData[partValue].replace(/\*/g, "⭐").replace(/x/g, "❌");
                 }
                 description += partValue + ": " + hzvData + "\n";
             }

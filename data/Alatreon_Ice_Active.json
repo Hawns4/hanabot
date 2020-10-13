@@ -1,0 +1,76 @@
+{
+    "Advanced": {
+        "Sever": {
+            "Head": 85,
+            "Neck": 85,
+            "Body": 20,
+            "Wings": 35,
+            "Arms": 60,
+            "Legs": 40,
+            "Tail": 40
+        },
+        "Blunt": {
+            "Head": 85,
+            "Neck": 85,
+            "Body": 25,
+            "Wings": 35,
+            "Arms": 60,
+            "Legs": 40,
+            "Tail": 35
+        },
+        "Ranged": {
+            "Head": 30,
+            "Neck": 30,
+            "Body": 45,
+            "Wings": 25,
+            "Arms": 20,
+            "Legs": 25,
+            "Tail": 40
+        },
+        "Fire": {
+            "Head": 14,
+            "Neck": 14,
+            "Body": 7,
+            "Wings": 18,
+            "Arms": 22,
+            "Legs": 18,
+            "Tail": 11
+        },
+        "Water": {
+            "Head": 8,
+            "Neck": 3,
+            "Body": 3,
+            "Wings": 1,
+            "Arms": 4,
+            "Legs": 5,
+            "Tail": 2
+        },
+        "Thunder": {
+            "Head": 10,
+            "Neck": 10,
+            "Body": 5,
+            "Wings": 13,
+            "Arms": 16,
+            "Legs": 13,
+            "Tail": 8
+        },
+        "Ice": {
+            "Head": 0,
+            "Neck": 0,
+            "Body": 0,
+            "Wings": 0,
+            "Arms": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Dragon": {
+            "Head": 1,
+            "Neck": 1,
+            "Body": 0,
+            "Wings": 1,
+            "Arms": 2,
+            "Legs": 1,
+            "Tail": 1
+        }
+    }
+}
