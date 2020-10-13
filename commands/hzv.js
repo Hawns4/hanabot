@@ -33,7 +33,7 @@ createEmbed = (monsterName, displayType) => {
     // TODO debug not grabbing simple data
     monsterData = monsterData[displayType];
     let embed = new Discord.MessageEmbed();
-    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./data/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
+    embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./icons/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
     parseData(embed, monsterData, displayType);
     return embed;
 }
