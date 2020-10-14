@@ -1,0 +1,147 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Forelegs (Breakable)": {
+            "Sever": "⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 43,
+            "Head (Broken)": 65,
+            "Neck": 25,
+            "Body": 25,
+            "Back": 25,
+            "Forelegs": 34,
+            "Forelegs (Broken)": 45,
+            "Hindlegs": 30,
+            "Hindlegs (Broken)": 50,
+            "Tail": 25,
+            "Tail (Broken)": 50,
+            "Tail Tip": 45
+        },
+        "Blunt": {
+            "Head": 45,
+            "Head (Broken)": 75,
+            "Neck": 30,
+            "Body": 25,
+            "Back": 25,
+            "Forelegs": 38,
+            "Forelegs (Broken)": 45,
+            "Hindlegs": 30,
+            "Hindlegs (Broken)": 50,
+            "Tail": 22,
+            "Tail (Broken)": 45,
+            "Tail Tip": 30
+        },
+        "Ranged": {
+            "Head": 45,
+            "Head (Broken)": 55,
+            "Neck": 25,
+            "Body": 20,
+            "Back": 20,
+            "Forelegs": 30,
+            "Forelegs (Broken)": 40,
+            "Hindlegs": 25,
+            "Hindlegs (Broken)": 40,
+            "Tail": 25,
+            "Tail (Broken)": 45,
+            "Tail Tip": 40
+        },
+        "Fire": {
+            "Head": 25,
+            "Head (Broken)": 20,
+            "Neck": 15,
+            "Body": 10,
+            "Back": 10,
+            "Forelegs": 20,
+            "Forelegs (Broken)": 10,
+            "Hindlegs": 20,
+            "Hindlegs (Broken)": 10,
+            "Tail": 20,
+            "Tail (Broken)": 10,
+            "Tail Tip": 15
+        },
+        "Water": {
+            "Head": 35,
+            "Head (Broken)": 25,
+            "Neck": 20,
+            "Body": 15,
+            "Back": 15,
+            "Forelegs": 30,
+            "Forelegs (Broken)": 20,
+            "Hindlegs": 30,
+            "Hindlegs (Broken)": 20,
+            "Tail": 30,
+            "Tail (Broken)": 15,
+            "Tail Tip": 20
+        },
+        "Thunder": {
+            "Head": 25,
+            "Head (Broken)": 20,
+            "Neck": 15,
+            "Body": 10,
+            "Back": 10,
+            "Forelegs": 20,
+            "Forelegs (Broken)": 10,
+            "Hindlegs": 20,
+            "Hindlegs (Broken)": 10,
+            "Tail": 20,
+            "Tail (Broken)": 10,
+            "Tail Tip": 15
+        },
+        "Ice": {
+            "Head": 25,
+            "Head (Broken)": 20,
+            "Neck": 15,
+            "Body": 10,
+            "Back": 10,
+            "Forelegs": 20,
+            "Forelegs (Broken)": 10,
+            "Hindlegs": 20,
+            "Hindlegs (Broken)": 10,
+            "Tail": 20,
+            "Tail (Broken)": 10,
+            "Tail Tip": 15
+        },
+        "Dragon": {
+            "Head": 5,
+            "Head (Broken)": 5,
+            "Neck": 5,
+            "Body": 5,
+            "Back": 5,
+            "Forelegs": 5,
+            "Forelegs (Broken)": 5,
+            "Hindlegs": 5,
+            "Hindlegs (Broken)": 5,
+            "Tail": 5,
+            "Tail (Broken)": 5,
+            "Tail Tip": 5
+        }
+    }
+}
