@@ -1,0 +1,163 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Belly (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐",
+            "Thunder": "⭐⭐⭐",
+            "Ice": "⭐",
+            "Dragon": "⭐⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 60,
+            "Head (Enraged)": 45,
+            "Body": 25,
+            "Body (Enraged)": 22,
+            "Chest": 37,
+            "Chest (Enraged)": 75,
+            "Lower Body": 30,
+            "Lower Body (Enraged)": 25,
+            "Arms": 30,
+            "Arms (Enraged)": 25,
+            "Legs": 45,
+            "Legs (Enraged)": 24,
+            "Tail": 40,
+            "Tail (Enraged)": 25
+        },
+        "Blunt": {
+            "Head": 70,
+            "Head (Enraged)": 50,
+            "Body": 25,
+            "Body (Enraged)": 22,
+            "Chest": 37,
+            "Chest (Enraged)": 75,
+            "Lower Body": 30,
+            "Lower Body (Enraged)": 25,
+            "Arms": 30,
+            "Arms (Enraged)": 25,
+            "Legs": 38,
+            "Legs (Enraged)": 25,
+            "Tail": 35,
+            "Tail (Enraged)": 24
+        },
+        "Ranged": {
+            "Head": 60,
+            "Head (Enraged)": 45,
+            "Body": 25,
+            "Body (Enraged)": 20,
+            "Chest": 35,
+            "Chest (Enraged)": 70,
+            "Lower Body": 30,
+            "Lower Body (Enraged)": 25,
+            "Arms": 30,
+            "Arms (Enraged)": 25,
+            "Legs": 35,
+            "Legs (Enraged)": 25,
+            "Tail": 25,
+            "Tail (Enraged)": 20
+        },
+        "Fire": {
+            "Head": 10,
+            "Head (Enraged)": 15,
+            "Body": 5,
+            "Body (Enraged)": 10,
+            "Chest": 15,
+            "Chest (Enraged)": 20,
+            "Lower Body": 5,
+            "Lower Body (Enraged)": 10,
+            "Arms": 10,
+            "Arms (Enraged)": 15,
+            "Legs": 5,
+            "Legs (Enraged)": 10,
+            "Tail": 5,
+            "Tail (Enraged)": 10
+        },
+        "Water": {
+            "Head": 10,
+            "Head (Enraged)": 15,
+            "Body": 5,
+            "Body (Enraged)": 10,
+            "Chest": 15,
+            "Chest (Enraged)": 20,
+            "Lower Body": 5,
+            "Lower Body (Enraged)": 10,
+            "Arms": 10,
+            "Arms (Enraged)": 15,
+            "Legs": 5,
+            "Legs (Enraged)": 10,
+            "Tail": 5,
+            "Tail (Enraged)": 10
+        },
+        "Thunder": {
+            "Head": 15,
+            "Head (Enraged)": 20,
+            "Body": 20,
+            "Body (Enraged)": 25,
+            "Chest": 20,
+            "Chest (Enraged)": 25,
+            "Lower Body": 20,
+            "Lower Body (Enraged)": 25,
+            "Arms": 15,
+            "Arms (Enraged)": 20,
+            "Legs": 10,
+            "Legs (Enraged)": 15,
+            "Tail": 20,
+            "Tail (Enraged)": 25
+        },
+        "Ice": {
+            "Head": 5,
+            "Head (Enraged)": 10,
+            "Body": 5,
+            "Body (Enraged)": 10,
+            "Chest": 10,
+            "Chest (Enraged)": 15,
+            "Lower Body": 5,
+            "Lower Body (Enraged)": 10,
+            "Arms": 5,
+            "Arms (Enraged)": 10,
+            "Legs": 5,
+            "Legs (Enraged)": 10,
+            "Tail": 5,
+            "Tail (Enraged)": 10
+        },
+        "Dragon": {
+            "Head": 15,
+            "Head (Enraged)": 20,
+            "Body": 20,
+            "Body (Enraged)": 25,
+            "Chest": 20,
+            "Chest (Enraged)": 25,
+            "Lower Body": 20,
+            "Lower Body (Enraged)": 25,
+            "Arms": 15,
+            "Arms (Enraged)": 20,
+            "Legs": 10,
+            "Legs (Enraged)": 15,
+            "Tail": 20,
+            "Tail (Enraged)": 25
+        }
+    }
+}
