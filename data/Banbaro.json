@@ -1,6 +1,6 @@
 {
     "Simple": {
-        "Horns": {
+        "Horns (Breakable)": {
             "Sever": "*",
             "Blunt": "**",
             "Ranged": "*"
@@ -10,7 +10,7 @@
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Tail": {
+        "Tail (Severable)": {
             "Sever": "**",
             "Blunt": "**",
             "Ranged": "**"

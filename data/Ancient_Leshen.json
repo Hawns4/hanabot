@@ -1,11 +1,11 @@
 {
     "Simple": {
-        "Antlers": {
+        "Antlers (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Body & Legs": {
+        "Body & Legs (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"

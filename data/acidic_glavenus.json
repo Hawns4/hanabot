@@ -1,16 +1,16 @@
 {
     "Simple": {
-        "Head": {
+        "Head (Breakable)": {
             "Sever": "**",
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Back": {
+        "Back (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Tail": {
+        "Tail (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"

@@ -1,16 +1,16 @@
 {
     "Simple": {
-        "Head": {
+        "Head (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Wings": {
+        "Wings (Breakable)": {
             "Sever": "**",
             "Blunt": "**",
             "Ranged": "**"
         },
-        "Tail": {
+        "Tail (Severable)": {
             "Sever": "**",
             "Blunt": "**",
             "Ranged": "**"
@@ -34,28 +34,22 @@
         "Sever": {
             "Head": 60,
             "Neck": 30,
-            "Body": 22,
-            "Back": 22,
+            "Body": 20,
+            "Back": 20,
             "Wings": 50,
             "Legs": 35,
-            "Tail": 25,
-            "Tail Tip": 55,
-            "Body (Iceborne)": 20,
-            "Back (Iceborne)": 20,
-            "Tail (Iceborne)": 18
+            "Tail": 18,
+            "Tail Tip": 55
         },
         "Blunt": {
             "Head": 65,
             "Neck": 35,
-            "Body": 22,
-            "Back": 22,
+            "Body": 20,
+            "Back": 20,
             "Wings": 45,
             "Legs": 35,
-            "Tail": 25,
-            "Tail Tip": 50,
-            "Body (Iceborne)": 20,
-            "Back (Iceborne)": 20,
-            "Tail (Iceborne)": 18
+            "Tail": 18,
+            "Tail Tip": 50
         },
         "Ranged": {
             "Head": 55,
@@ -65,10 +59,7 @@
             "Wings": 40,
             "Legs": 30,
             "Tail": 20,
-            "Tail Tip": 45,
-            "Body (Iceborne)": 20,
-            "Back (Iceborne)": 20,
-            "Tail (Iceborne)": 20
+            "Tail Tip": 45
         },
         "Fire": {
             "Head": 0,

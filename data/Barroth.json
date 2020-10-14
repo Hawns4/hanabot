@@ -1,0 +1,127 @@
+{
+    "Simple": {
+        "Claws (Breakable)": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Tail (Severable)": {
+            "Sever": "**",
+            "Blunt": "**",
+            "Ranged": "**"
+        },
+        "Elements": {
+            "Fire": "***(x)",
+            "Water": "x(***)",
+            "Thunder": "x",
+            "Ice": "**",
+            "Dragon": "*",
+            "Notes": "() when covered in mud"
+        },
+        "Ailments": {
+            "Poison": "***",
+            "Sleep": "**",
+            "Paralysis": "***",
+            "Blast": "***",
+            "Stun": "*"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 20,
+            "Head (Mud)": 19,
+            "Body": 46,
+            "Body (Mud)": 20,
+            "Arms": 65,
+            "Arms (Mud)": 33,
+            "Legs": 36,
+            "Legs (Mud)": 23,
+            "Tail": 55,
+            "Tail (Mud)": 23
+        },
+        "Blunt": {
+            "Head": 22,
+            "Head (Mud)": 23,
+            "Body": 46,
+            "Body (Mud)": 20,
+            "Arms": 70,
+            "Arms (Mud)": 36,
+            "Legs": 35,
+            "Legs (Mud)": 23,
+            "Tail": 50,
+            "Tail (Mud)": 23
+        },
+        "Ranged": {
+            "Head": 10,
+            "Head (Mud)": 8,
+            "Body": 50,
+            "Body (Mud)": 18,
+            "Arms": 60,
+            "Arms (Mud)": 28,
+            "Legs": 25,
+            "Legs (Mud)": 19,
+            "Tail": 40,
+            "Tail (Mud)": 19
+        },
+        "Fire": {
+            "Head": 20,
+            "Head (Mud)": 0,
+            "Body": 20,
+            "Body (Mud)": 0,
+            "Arms": 30,
+            "Arms (Mud)": 0,
+            "Legs": 20,
+            "Legs (Mud)": 0,
+            "Tail": 25,
+            "Tail (Mud)": 0
+        },
+        "Water": {
+            "Head": 0,
+            "Head (Mud)": 45,
+            "Body": 0,
+            "Body (Mud)": 45,
+            "Arms": 0,
+            "Arms (Mud)": 45,
+            "Legs": 0,
+            "Legs (Mud)": 45,
+            "Tail": 0,
+            "Tail (Mud)": 45
+        },
+        "Thunder": {
+            "Head": 0,
+            "Head (Mud)": 0,
+            "Body": 0,
+            "Body (Mud)": 0,
+            "Arms": 0,
+            "Arms (Mud)": 0,
+            "Legs": 0,
+            "Legs (Mud)": 0,
+            "Tail": 0,
+            "Tail (Mud)": 0
+        },
+        "Ice": {
+            "Head": 15,
+            "Head (Mud)": 10,
+            "Body": 10,
+            "Body (Mud)": 10,
+            "Arms": 10,
+            "Arms (Mud)": 10,
+            "Legs": 10,
+            "Legs (Mud)": 10,
+            "Tail": 15,
+            "Tail (Mud)": 10
+        },
+        "Dragon": {
+            "Head": 10,
+            "Head (Mud)": 5,
+            "Body": 5,
+            "Body (Mud)": 5,
+            "Arms": 5,
+            "Arms (Mud)": 5,
+            "Legs": 5,
+            "Legs (Mud)": 5,
+            "Tail": 10,
+            "Tail (Mud)": 5
+        }
+    }
+}

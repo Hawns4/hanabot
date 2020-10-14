@@ -1,16 +1,16 @@
 {
     "Simple": {
-        "Head": {
+        "Head (Breakable)": {
             "Sever": "***",
             "Blunt": "***",
             "Ranged": "***"
         },
-        "Spike": {
+        "Spike (Breakable)": {
             "Sever": "*",
             "Blunt": "**",
             "Ranged": "*"
         },
-        "Tail": {
+        "Tail (Severable)": {
             "Sever": "**",
             "Blunt": "*",
             "Ranged": "**"
