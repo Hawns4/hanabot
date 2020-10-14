@@ -1,0 +1,107 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "**",
+            "Blunt": "***",
+            "Ranged": "**"
+        },
+        "Legs (Breakable)": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Tail (Breakable)": {
+            "Sever": "**",
+            "Blunt": "**",
+            "Ranged": "**"
+        },
+        "Elements": {
+            "Fire": "***",
+            "Water": "*",
+            "Thunder": "**",
+            "Ice": "x",
+            "Dragon": "x"
+        },
+        "Ailments": {
+            "Poison": "**",
+            "Sleep": "**",
+            "Paralysis": "**",
+            "Blast": "***",
+            "Stun": "**"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 46,
+            "Head (Snow)": 30,
+            "Body": 35,
+            "Body (Snow)": 30,
+            "Legs": 70,
+            "Tail": 40,
+            "Tail (Snow)": 34
+        },
+        "Blunt": {
+            "Head": 50,
+            "Head (Snow)": 34,
+            "Body": 35,
+            "Body (Snow)": 30,
+            "Legs": 65,
+            "Tail": 35,
+            "Tail (Snow)": 30
+        },
+        "Ranged": {
+            "Head": 45,
+            "Head (Snow)": 25,
+            "Body": 35,
+            "Body (Snow)": 25,
+            "Legs": 50,
+            "Tail": 35,
+            "Tail (Snow)": 25
+        },
+        "Fire": {
+            "Head": 25,
+            "Head (Snow)": 25,
+            "Body": 20,
+            "Body (Snow)": 20,
+            "Legs": 30,
+            "Tail": 20,
+            "Tail (Snow)": 20
+        },
+        "Water": {
+            "Head": 10,
+            "Head (Snow)": 0,
+            "Body": 5,
+            "Body (Snow)": 0,
+            "Legs": 10,
+            "Tail": 5,
+            "Tail (Snow)": 0
+        },
+        "Thunder": {
+            "Head": 15,
+            "Head (Snow)": 5,
+            "Body": 10,
+            "Body (Snow)": 5,
+            "Legs": 15,
+            "Tail": 10,
+            "Tail (Snow)": 5
+        },
+        "Ice": {
+            "Head": 0,
+            "Head (Snow)": 0,
+            "Body": 0,
+            "Body (Snow)": 0,
+            "Legs": 0,
+            "Tail": 0,
+            "Tail (Snow)": 0
+        },
+        "Dragon": {
+            "Head": 0,
+            "Head (Snow)": 0,
+            "Body": 0,
+            "Body (Snow)": 0,
+            "Legs": 0,
+            "Tail": 0,
+            "Tail (Snow)": 0
+        }
+    }
+}
