@@ -1,0 +1,139 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Back (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 50,
+            "Neck": 37,
+            "Throat": 65,
+            "Back": 45,
+            "Body": 20,
+            "Forelegs": 20,
+            "Hindlegs": 37,
+            "Tail (Base)": 37,
+            "Tail": 37,
+            "Tail (Heated)": 65,
+            "Tail (Rust)": 20
+        },
+        "Blunt": {
+            "Head": 55,
+            "Neck": 37,
+            "Throat": 65,
+            "Back": 45,
+            "Body": 20,
+            "Forelegs": 20,
+            "Hindlegs": 35,
+            "Tail (Base)": 35,
+            "Tail": 35,
+            "Tail (Heated)": 60,
+            "Tail (Rust)": 20
+        },
+        "Ranged": {
+            "Head": 30,
+            "Neck": 25,
+            "Throat": 45,
+            "Back": 35,
+            "Body": 30,
+            "Forelegs": 18,
+            "Hindlegs": 25,
+            "Tail (Base)": 25,
+            "Tail": 25,
+            "Tail (Heated)": 45,
+            "Tail (Rust)": 15
+        },
+        "Fire": {
+            "Head": 0,
+            "Neck": 0,
+            "Throat": 0,
+            "Back": 0,
+            "Body": 0,
+            "Forelegs": 0,
+            "Hindlegs": 0,
+            "Tail (Base)": 0,
+            "Tail": 0,
+            "Tail (Heated)": 0,
+            "Tail (Rust)": 0
+        },
+        "Water": {
+            "Head": 25,
+            "Neck": 20,
+            "Throat": 30,
+            "Back": 20,
+            "Body": 15,
+            "Forelegs": 15,
+            "Hindlegs": 15,
+            "Tail (Base)": 20,
+            "Tail": 20,
+            "Tail (Heated)": 25,
+            "Tail (Rust)": 15
+        },
+        "Thunder": {
+            "Head": 10,
+            "Neck": 10,
+            "Throat": 10,
+            "Back": 5,
+            "Body": 5,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail (Base)": 10,
+            "Tail": 5,
+            "Tail (Heated)": 10,
+            "Tail (Rust)": 5
+        },
+        "Ice": {
+            "Head": 15,
+            "Neck": 13,
+            "Throat": 15,
+            "Back": 10,
+            "Body": 10,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail (Base)": 15,
+            "Tail": 10,
+            "Tail (Heated)": 15,
+            "Tail (Rust)": 5
+        },
+        "Dragon": {
+            "Head": 15,
+            "Neck": 10,
+            "Throat": 10,
+            "Back": 10,
+            "Body": 10,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail (Base)": 15,
+            "Tail": 10,
+            "Tail (Heated)": 15,
+            "Tail (Rust)": 5
+        }
+    }
+}
