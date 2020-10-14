@@ -1,0 +1,105 @@
+{
+    "Simple": {
+        "Head": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Nose": 65,
+            "Head": 60,
+            "Neck": 30,
+            "Wings": 63,
+            "Body": 30,
+            "Legs": 21,
+            "Legs (Wounded)": 45,
+            "Tail": 60
+        },
+        "Blunt": {
+            "Nose": 63,
+            "Head": 60,
+            "Neck": 30,
+            "Wings": 45,
+            "Body": 30,
+            "Legs": 21,
+            "Legs (Wounded)": 45,
+            "Tail": 60
+        },
+        "Ranged": {
+            "Nose": 55,
+            "Head": 45,
+            "Neck": 10,
+            "Wings": 55,
+            "Body": 54,
+            "Legs": 15,
+            "Legs (Wounded)": 50,
+            "Tail": 75
+        },
+        "Fire": {
+            "Nose": 0,
+            "Head": 0,
+            "Neck": 0,
+            "Wings": 0,
+            "Body": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Water": {
+            "Nose": 30,
+            "Head": 25,
+            "Neck": 20,
+            "Wings": 30,
+            "Body": 15,
+            "Legs": 15,
+            "Tail": 20
+        },
+        "Thunder": {
+            "Nose": 15,
+            "Head": 10,
+            "Neck": 5,
+            "Wings": 15,
+            "Body": 5,
+            "Legs": 5,
+            "Tail": 10
+        },
+        "Ice": {
+            "Nose": 20,
+            "Head": 15,
+            "Neck": 15,
+            "Wings": 20,
+            "Body": 10,
+            "Legs": 10,
+            "Tail": 15
+        },
+        "Dragon": {
+            "Nose": 10,
+            "Head": 5,
+            "Neck": 5,
+            "Wings": 10,
+            "Body": 0,
+            "Legs": 0,
+            "Tail": 5
+        }
+    }
+}

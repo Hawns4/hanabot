@@ -1,33 +1,28 @@
 {
     "Simple": {
-        "Antlers": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
+        "Antlers (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
-        "Body": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
-        },
-        "Legs": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
+        "Body & Legs (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Elements": {
-            "Fire": "***",
-            "Water": "x",
-            "Thunder": "**",
-            "Ice": "*",
-            "Dragon": "**"
+            "Fire": "⭐⭐⭐⭐",
+            "Water": "❌",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐",
+            "Dragon": "⭐⭐"
         },
         "Ailments": {
-            "Poison": "**",
-            "Sleep": "x",
-            "Paralysis": "*",
-            "Blast": "*",
-            "Stun": "*"
+            "Poison": "⭐⭐",
+            "Sleep": "❌",
+            "Paralysis": "⭐",
+            "Blast": "⭐",
+            "Stun": "⭐"
         }
     },
     "Advanced": {
