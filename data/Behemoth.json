@@ -1,0 +1,131 @@
+{
+    "Simple": {
+        "Horns (Breakable)": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Claws (Breakable)": {
+            "Sever": "***",
+            "Blunt": "***",
+            "Ranged": "***"
+        },
+        "Tail (Severable)": {
+            "Sever": "***",
+            "Blunt": "**",
+            "Ranged": "**"
+        },
+        "Elements": {
+            "Fire": "*",
+            "Water": "**",
+            "Thunder": "*",
+            "Ice": "**",
+            "Dragon": "***"
+        },
+        "Ailments": {
+            "Poison": "**",
+            "Sleep": "**",
+            "Paralysis": "**",
+            "Blast": "**",
+            "Stun": "**"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Horns": 20,
+            "Horns (Wounded)": 10,
+            "Head": 60,
+            "Body": 15,
+            "Back": 22,
+            "Arms": 50,
+            "Arms (Wounded)": 50,
+            "Legs": 30,
+            "Tail": 45,
+            "Tail Tip": 50
+        },
+        "Blunt": {
+            "Horns": 30,
+            "Horns (Wounded)": 15,
+            "Head": 55,
+            "Body": 22,
+            "Back": 15,
+            "Arms": 40,
+            "Arms (Wounded)": 40,
+            "Legs": 55,
+            "Tail": 25,
+            "Tail Tip": 25
+        },
+        "Ranged": {
+            "Horns": 5,
+            "Horns (Wounded)": 5,
+            "Head": 50,
+            "Body": 8,
+            "Back": 5,
+            "Arms": 15,
+            "Arms (Wounded)": 45,
+            "Legs": 10,
+            "Tail": 15,
+            "Tail Tip": 35
+        },
+        "Fire": {
+            "Horns": 15,
+            "Horns (Wounded)": 5,
+            "Head": 0,
+            "Body": 0,
+            "Back": 0,
+            "Arms": 5,
+            "Arms (Wounded)": 5,
+            "Legs": 0,
+            "Tail": 25,
+            "Tail Tip": 25
+        },
+        "Water": {
+            "Horns": 50,
+            "Horns (Wounded)": 10,
+            "Head": 25,
+            "Body": 5,
+            "Back": 0,
+            "Arms": 10,
+            "Arms (Wounded)": 10,
+            "Legs": 10,
+            "Tail": 5,
+            "Tail Tip": 20
+        },
+        "Thunder": {
+            "Horns": 35,
+            "Horns (Wounded)": 5,
+            "Head": 10,
+            "Body": 5,
+            "Back": 0,
+            "Arms": 5,
+            "Arms (Wounded)": 5,
+            "Legs": 10,
+            "Tail": 15,
+            "Tail Tip": 20
+        },
+        "Ice": {
+            "Horns": 40,
+            "Horns (Wounded)": 5,
+            "Head": 10,
+            "Body": 5,
+            "Back": 0,
+            "Arms": 5,
+            "Arms (Wounded)": 5,
+            "Legs": 25,
+            "Tail": 5,
+            "Tail Tip": 20
+        },
+        "Dragon": {
+            "Horns": 85,
+            "Horns (Wounded)": 25,
+            "Head": 5,
+            "Body": 0,
+            "Back": 0,
+            "Arms": 15,
+            "Arms (Wounded)": 15,
+            "Legs": 5,
+            "Tail": 5,
+            "Tail Tip": 10
+        }
+    }
+}
