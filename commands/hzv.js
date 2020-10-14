@@ -7,18 +7,7 @@ module.exports = {
     args: true,
     usage: "<Monster Name> [advanced]",
     execute(message, args) {
-        for (let i = 0; i < args.length; i++) {
-            if (args[i].includes("-")) {
-                const hyphenWord = args[i].split("-");
-                for (let j = 0; j < hyphenWord.length; j++) {
-                    hyphenWord[j] = hyphenWord[j].charAt(0).toUpperCase() + hyphenWord[j].slice(1);
-                }
-                args[i] = hyphenWord.join("-");
-            } else {
-                args[i] = args[i].charAt(0).toUpperCase() + args[i].slice(1);
-            }
-        }
-
+        capitalizeArgs(args);
         try {
             let displayType = args[args.length - 1];
             if (displayType === "Advanced") {
@@ -34,6 +23,20 @@ module.exports = {
         }
     },
 };
+
+capitalizeArgs = (args) => {
+    for (let i = 0; i < args.length; i++) {
+        if (args[i].includes("-")) {
+            const hyphenWord = args[i].split("-");
+            for (let j = 0; j < hyphenWord.length; j++) {
+                hyphenWord[j] = hyphenWord[j].charAt(0).toUpperCase() + hyphenWord[j].slice(1);
+            }
+            args[i] = hyphenWord.join("-");
+        } else {
+            args[i] = args[i].charAt(0).toUpperCase() + args[i].slice(1);
+        }
+    }
+}
 
 createEmbed = (monsterName, displayType) => {
     let monsterData = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
