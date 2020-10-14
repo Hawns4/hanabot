@@ -45,7 +45,7 @@ createEmbed = (monsterName, displayType) => {
     return embed;
 }
 
-parseData = (embed, monsterData, displayType) => {
+parseData = (embed, monsterData) => {
     for (data in monsterData) {
         if (monsterData.hasOwnProperty(data)) {
             let childData = monsterData[data];
