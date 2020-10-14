@@ -50,14 +50,12 @@ createEmbed = (monsterName, displayType) => {
 
 parseData = (embed, monsterData) => {
     for (data in monsterData) {
-        if (monsterData.hasOwnProperty(data)) {
-            let childData = monsterData[data];
-            let description = "";
-            for (partValue in childData) {
-                let hzvData = childData[partValue];
-                description += partValue + ": " + hzvData + "\n";
-            }
-            embed.addField(data, description, true);
+        let childData = monsterData[data];
+        let description = "";
+        for (partValue in childData) {
+            let hzvData = childData[partValue];
+            description += partValue + ": " + hzvData + "\n";
         }
+        embed.addField(data, description, true);
     }
 }
