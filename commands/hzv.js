@@ -9,10 +9,17 @@ module.exports = {
     execute(message, args) {
         for (let i = 0; i < args.length; i++) {
             args[i] = args[i].charAt(0).toUpperCase() + args[i].slice(1);
+
+            if (args[i].includes("-")) {
+                const hyphenWord = args[i].split("-");
+                for (let j = 0; j < hyphenWord.length; j++) {
+                    hyphenWord[j] = hyphenWord[j].charAt(0).toUpperCase() + hyphenWord[j].slice(1);
+                }
+                args[i] = hyphenWord.join("-");
+            }
         }
 
         try {
-            // TODO debug simple displayType
             let displayType = args[args.length - 1];
             if (displayType === "Advanced") {
                 args.pop();
@@ -22,8 +29,9 @@ module.exports = {
             const monsterName = args.join("_");
             return message.channel.send(createEmbed(monsterName, displayType));
         } catch (err) {
-            message.channel.send("I couldn't find a monster by that name.");
-            message.channel.send("Please check the spelling of the name and try again.");
+            message.channel.send("I couldn't find a monster by that name. Please check the spelling of the name and try again.");
+            message.channel.send("Note: Monsters with special punctuation in their name such as Safi'jiiva and Kulu-Ya-Ku require that punctuation to be present.");
+            // console.log(err);
         }
     },
 };
