@@ -1,29 +1,29 @@
 {
     "Simple": {
         "Claws (Breakable)": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Tail (Severable)": {
-            "Sever": "**",
-            "Blunt": "**",
-            "Ranged": "**"
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Elements": {
-            "Fire": "***(x)",
-            "Water": "x(***)",
-            "Thunder": "x",
-            "Ice": "**",
-            "Dragon": "*",
+            "Fire": "⭐⭐⭐(❌)",
+            "Water": "❌(⭐⭐⭐)",
+            "Thunder": "❌",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐",
             "Notes": "() when covered in mud"
         },
         "Ailments": {
-            "Poison": "***",
-            "Sleep": "**",
-            "Paralysis": "***",
-            "Blast": "***",
-            "Stun": "*"
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐⭐",
+            "Blast": "⭐⭐⭐",
+            "Stun": "⭐"
         }
     },
     "Advanced": {

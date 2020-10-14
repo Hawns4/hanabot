@@ -1,47 +1,47 @@
 {
     "Simple": {
         "Head (Breakable)": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "**"
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Tail (Severable)": {
-            "Sever": "**",
-            "Blunt": "**",
-            "Ranged": "**"
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Forelegs (Breakable)": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "*"
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐"
         },
         "Fire Active": {
-            "Fire": "x",
-            "Water": "**",
-            "Thunder": "*",
-            "Ice": "***",
-            "Dragon": "*"
+            "Fire": "❌",
+            "Water": "⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "⭐"
         },
         "Ice Active": {
-            "Fire": "***",
-            "Water": "*",
-            "Thunder": "**",
-            "Ice": "x",
-            "Dragon": "*"
+            "Fire": "⭐⭐⭐",
+            "Water": "⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "❌",
+            "Dragon": "⭐"
         },
         "Dragon Active": {
-            "Fire": "*",
-            "Water": "*",
-            "Thunder": "*",
-            "Ice": "*",
-            "Dragon": "**"
+            "Fire": "⭐",
+            "Water": "⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐",
+            "Dragon": "⭐⭐"
         },
         "Ailments": {
-            "Poison": "*",
-            "Sleep": "*",
-            "Paralysis": "*",
-            "Blast": "*",
-            "Stun": "*"
+            "Poison": "⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐",
+            "Blast": "⭐",
+            "Stun": "⭐"
         }
     },
     "Advanced": {

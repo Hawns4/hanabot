@@ -1,33 +1,33 @@
 {
     "Simple": {
         "Head (Breakable)": {
-            "Sever": "**",
-            "Blunt": "***",
-            "Ranged": "**"
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Legs (Breakable)": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Tail (Breakable)": {
-            "Sever": "**",
-            "Blunt": "**",
-            "Ranged": "**"
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Elements": {
-            "Fire": "***",
-            "Water": "*",
-            "Thunder": "**",
-            "Ice": "x",
-            "Dragon": "x"
+            "Fire": "⭐⭐⭐",
+            "Water": "⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "❌",
+            "Dragon": "❌"
         },
         "Ailments": {
-            "Poison": "**",
-            "Sleep": "**",
-            "Paralysis": "**",
-            "Blast": "***",
-            "Stun": "**"
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐⭐",
+            "Stun": "⭐⭐"
         }
     },
     "Advanced": {

@@ -1,28 +1,28 @@
 {
     "Simple": {
         "Head": {
-            "Sever": "***",
-            "Blunt": "***",
-            "Ranged": "***"
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Tail": {
-            "Sever": "**",
-            "Blunt": "**",
-            "Ranged": "**"
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
         },
         "Elements": {
-            "Fire": "x",
-            "Water": "***",
-            "Thunder": "**",
-            "Ice": "**",
-            "Dragon": "*"
+            "Fire": "❌",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐"
         },
         "Ailments": {
-            "Poison": "**",
-            "Sleep": "**",
-            "Paralysis": "**",
-            "Blast": "*",
-            "Stun": "**"
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐",
+            "Stun": "⭐⭐"
         }
     },
     "Advanced": {

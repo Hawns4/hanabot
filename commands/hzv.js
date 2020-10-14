@@ -51,12 +51,7 @@ parseData = (embed, monsterData, displayType) => {
             let childData = monsterData[data];
             let description = "";
             for (partValue in childData) {
-                let hzvData = "";
-                if (displayType === "Advanced") {
-                    hzvData = childData[partValue];
-                } else {
-                    hzvData = childData[partValue].replace(/\*/g, "⭐").replace(/x/g, "❌");
-                }
+                let hzvData = childData[partValue];
                 description += partValue + ": " + hzvData + "\n";
             }
             embed.addField(data, description, true);
