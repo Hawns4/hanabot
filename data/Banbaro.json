@@ -1,0 +1,105 @@
+{
+    "Simple": {
+        "Horns (Breakable)": {
+            "Sever": "⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐"
+        },
+        "Head": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "❌",
+            "Thunder": "⭐",
+            "Ice": "❌",
+            "Dragon": "⭐⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐⭐",
+            "Stun": "⭐⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Horns": 30,
+            "Horns (Broken)": 65,
+            "Head": 65,
+            "Neck": 45,
+            "Torso": 30,
+            "Legs": 45,
+            "Legs (Broken)": 55,
+            "Tail": 35
+        },
+        "Blunt": {
+            "Horns": 45,
+            "Horns (Broken)": 65,
+            "Head": 65,
+            "Neck": 45,
+            "Torso": 30,
+            "Legs": 45,
+            "Legs (Broken)": 55,
+            "Tail": 35
+        },
+        "Ranged": {
+            "Horns": 35,
+            "Horns (Broken)": 55,
+            "Head": 55,
+            "Neck": 35,
+            "Torso": 25,
+            "Legs": 45,
+            "Legs (Broken)": 50,
+            "Tail": 25
+        },
+        "Fire": {
+            "Horns": 10,
+            "Head": 20,
+            "Neck": 5,
+            "Torso": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Water": {
+            "Horns": 0,
+            "Head": 0,
+            "Neck": 0,
+            "Torso": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Thunder": {
+            "Horns": 5,
+            "Head": 10,
+            "Neck": 0,
+            "Torso": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Ice": {
+            "Horns": 0,
+            "Head": 0,
+            "Neck": 0,
+            "Torso": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Dragon": {
+            "Horns": 15,
+            "Head": 25,
+            "Neck": 10,
+            "Torso": 5,
+            "Legs": 5,
+            "Tail": 5
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Wings (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐",
+            "Water": "❌",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 60,
+            "Body": 30,
+            "Wings": 34,
+            "Legs": 30,
+            "Tail": 40
+        },
+        "Blunt": {
+            "Head": 65,
+            "Body": 30,
+            "Wings": 34,
+            "Legs": 30,
+            "Tail": 35
+        },
+        "Ranged": {
+            "Head": 45,
+            "Body": 25,
+            "Wings": 40,
+            "Legs": 25,
+            "Tail": 30
+        },
+        "Fire": {
+            "Head": 10,
+            "Body": 5,
+            "Wings": 5,
+            "Legs": 5,
+            "Tail": 5
+        },
+        "Water": {
+            "Head": 0,
+            "Body": 0,
+            "Wings": 0,
+            "Legs": 0,
+            "Tail": 0
+        },
+        "Thunder": {
+            "Head": 15,
+            "Body": 5,
+            "Wings": 10,
+            "Legs": 10,
+            "Tail": 10
+        },
+        "Ice": {
+            "Head": 30,
+            "Body": 15,
+            "Wings": 25,
+            "Legs": 20,
+            "Tail": 25
+        },
+        "Dragon": {
+            "Head": 10,
+            "Body": 5,
+            "Wings": 5,
+            "Legs": 5,
+            "Tail": 5
+        }
+    }
+}
