@@ -53,8 +53,7 @@ parseData = (embed, monsterData) => {
         let childData = monsterData[data];
         let description = "";
         for (partValue in childData) {
-            let hzvData = childData[partValue];
-            description += partValue + ": " + hzvData + "\n";
+            description += partValue + ": " + childData[partValue] + "\n";
         }
         embed.addField(data, description, true);
     }
