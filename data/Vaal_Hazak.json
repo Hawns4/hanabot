@@ -1,0 +1,163 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Chest (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐⭐",
+            "Water": "",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 50,
+            "Neck": 45,
+            "Chest": 50,
+            "Stomach": 50,
+            "Back": 45,
+            "Tail": 35,
+            "Tail Tip": 60,
+            "Hindlegs": 25,
+            "Forelegs": 45,
+            "Wings": 24,
+            "Head (Wounded)": 70,
+            "Stomach (Wounded)": 60,
+            "Back (Wounded)": 55,
+            "Forelegs (Wounded)": 55
+        },
+        "Blunt": {
+            "Head": 40,
+            "Neck": 40,
+            "Chest": 45,
+            "Stomach": 40,
+            "Back": 35,
+            "Tail": 30,
+            "Tail Tip": 30,
+            "Hindlegs": 25,
+            "Forelegs": 40,
+            "Wings": 23,
+            "Head (Wounded)": 80,
+            "Stomach (Wounded)": 70,
+            "Back (Wounded)": 65,
+            "Forelegs (Wounded)": 50
+        },
+        "Ranged": {
+            "Head": 50,
+            "Neck": 30,
+            "Chest": 45,
+            "Stomach": 45,
+            "Back": 35,
+            "Tail": 30,
+            "Tail Tip": 50,
+            "Hindlegs": 20,
+            "Forelegs": 35,
+            "Wings": 30,
+            "Head (Wounded)": 60,
+            "Stomach (Wounded)": 40,
+            "Back (Wounded)": 40,
+            "Forelegs (Wounded)": 45
+        },
+        "Fire": {
+            "Head": 25,
+            "Neck": 15,
+            "Chest": 15,
+            "Stomach": 20,
+            "Back": 20,
+            "Tail": 20,
+            "Tail Tip": 20,
+            "Hindlegs": 5,
+            "Forelegs": 20,
+            "Wings": 15,
+            "Head (Wounded)": 25,
+            "Stomach (Wounded)": 25,
+            "Back (Wounded)": 25,
+            "Forelegs (Wounded)": 20
+        },
+        "Water": {
+            "Head": 5,
+            "Neck": 5,
+            "Chest": 5,
+            "Stomach": 5,
+            "Back": 5,
+            "Tail": 5,
+            "Tail Tip": 5,
+            "Hindlegs": 0,
+            "Forelegs": 0,
+            "Wings": 5,
+            "Head (Wounded)": 5,
+            "Stomach (Wounded)": 5,
+            "Back (Wounded)": 5,
+            "Forelegs (Wounded)": 5
+        },
+        "Thunder": {
+            "Head": 10,
+            "Neck": 10,
+            "Chest": 10,
+            "Stomach": 10,
+            "Back": 10,
+            "Tail": 10,
+            "Tail Tip": 10,
+            "Hindlegs": 0,
+            "Forelegs": 5,
+            "Wings": 10,
+            "Head (Wounded)": 10,
+            "Stomach (Wounded)": 10,
+            "Back (Wounded)": 10,
+            "Forelegs (Wounded)": 5
+        },
+        "Ice": {
+            "Head": 15,
+            "Neck": 10,
+            "Chest": 15,
+            "Stomach": 15,
+            "Back": 15,
+            "Tail": 15,
+            "Tail Tip": 15,
+            "Hindlegs": 0,
+            "Forelegs": 10,
+            "Wings": 10,
+            "Head (Wounded)": 15,
+            "Stomach (Wounded)": 15,
+            "Back (Wounded)": 15,
+            "Forelegs (Wounded)": 10
+        },
+        "Dragon": {
+            "Head": 0,
+            "Neck": 15,
+            "Chest": 15,
+            "Stomach": 0,
+            "Back": 0,
+            "Tail": 0,
+            "Tail Tip": 0,
+            "Hindlegs": 5,
+            "Forelegs": 5,
+            "Wings": 15,
+            "Head (Wounded)": 25,
+            "Stomach (Wounded)": 25,
+            "Back (Wounded)": 25,
+            "Forelegs (Wounded)": 20
+        }
+    }
+}

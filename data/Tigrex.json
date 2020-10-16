@@ -1,0 +1,107 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Forelegs (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐",
+            "Thunder": "⭐⭐⭐",
+            "Ice": "⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 65,
+            "Back": 25,
+            "Stomach": 30,
+            "Forelegs": 50,
+            "Hindlegs": 30,
+            "Tail": 40,
+            "Tail Tip": 45
+        },
+        "Blunt": {
+            "Head": 70,
+            "Back": 25,
+            "Stomach": 30,
+            "Forelegs": 45,
+            "Hindlegs": 30,
+            "Tail": 35,
+            "Tail Tip": 35
+        },
+        "Ranged": {
+            "Head": 55,
+            "Back": 20,
+            "Stomach": 20,
+            "Forelegs": 35,
+            "Hindlegs": 25,
+            "Tail": 30,
+            "Tail Tip": 30
+        },
+        "Fire": {
+            "Head": 0,
+            "Back": 0,
+            "Stomach": 10,
+            "Forelegs": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Tail Tip": 0
+        },
+        "Water": {
+            "Head": 10,
+            "Back": 5,
+            "Stomach": 10,
+            "Forelegs": 15,
+            "Hindlegs": 5,
+            "Tail": 5,
+            "Tail Tip": 5
+        },
+        "Thunder": {
+            "Head": 25,
+            "Back": 15,
+            "Stomach": 15,
+            "Forelegs": 20,
+            "Hindlegs": 15,
+            "Tail": 10,
+            "Tail Tip": 10
+        },
+        "Ice": {
+            "Head": 5,
+            "Back": 5,
+            "Stomach": 5,
+            "Forelegs": 10,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Tail Tip": 0
+        },
+        "Dragon": {
+            "Head": 15,
+            "Back": 15,
+            "Stomach": 15,
+            "Forelegs": 5,
+            "Hindlegs": 10,
+            "Tail": 5,
+            "Tail Tip": 15
+        }
+    }
+}

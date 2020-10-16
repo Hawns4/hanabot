@@ -1,0 +1,81 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐",
+            "Thunder": "⭐⭐⭐",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Antennae": 68,
+            "Head": 59,
+            "Forearms": 45,
+            "Body": 45,
+            "Tail": 40
+        },
+        "Blunt": {
+            "Antennae": 59,
+            "Head": 50,
+            "Forearms": 60,
+            "Body": 60,
+            "Tail": 40
+        },
+        "Ranged": {
+            "Antennae": 63,
+            "Head": 50,
+            "Forearms": 35,
+            "Body": 35,
+            "Tail": 35
+        },
+        "Fire": {
+            "Antennae": 15,
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15
+        },
+        "Water": {
+            "Antennae": 15,
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15
+        },
+        "Thunder": {
+            "Antennae": 20,
+            "Head": 20,
+            "Forearms": 20,
+            "Body": 20,
+            "Tail": 20
+        },
+        "Ice": {
+            "Antennae": 20,
+            "Head": 20,
+            "Forearms": 20,
+            "Body": 20,
+            "Tail": 20
+        },
+        "Dragon": {
+            "Antennae": 15,
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15
+        }
+    }
+}

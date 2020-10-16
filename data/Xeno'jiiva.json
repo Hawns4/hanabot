@@ -1,0 +1,151 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Front Claws (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐⭐",
+            "Sleep": "❌",
+            "Paralysis": "⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 70,
+            "Neck": 30,
+            "Body": 25,
+            "Chest": 60,
+            "Forelegs": 50,
+            "Hindlegs": 22,
+            "Wings": 50,
+            "Tail": 25,
+            "Tail Tip": 70,
+            "Head (Wounded)": 80,
+            "Forelegs (Wounded)": 60,
+            "Wings (Wounded)": 60
+        },
+        "Blunt": {
+            "Head": 70,
+            "Neck": 30,
+            "Body": 25,
+            "Chest": 60,
+            "Forelegs": 50,
+            "Hindlegs": 22,
+            "Wings": 50,
+            "Tail": 25,
+            "Tail Tip": 70,
+            "Head (Wounded)": 80,
+            "Forelegs (Wounded)": 60,
+            "Wings (Wounded)": 60
+        },
+        "Ranged": {
+            "Head": 55,
+            "Neck": 25,
+            "Body": 25,
+            "Chest": 30,
+            "Forelegs": 45,
+            "Hindlegs": 15,
+            "Wings": 30,
+            "Tail": 15,
+            "Tail Tip": 45,
+            "Head (Wounded)": 60,
+            "Forelegs (Wounded)": 50,
+            "Wings (Wounded)": 40
+        },
+        "Fire": {
+            "Head": 20,
+            "Neck": 15,
+            "Body": 15,
+            "Chest": 20,
+            "Forelegs": 20,
+            "Hindlegs": 10,
+            "Wings": 15,
+            "Tail": 10,
+            "Tail Tip": 20,
+            "Head (Wounded)": 20,
+            "Forelegs (Wounded)": 20,
+            "Wings (Wounded)": 15
+        },
+        "Water": {
+            "Head": 10,
+            "Neck": 10,
+            "Body": 10,
+            "Chest": 10,
+            "Forelegs": 10,
+            "Hindlegs": 5,
+            "Wings": 10,
+            "Tail": 5,
+            "Tail Tip": 10,
+            "Head (Wounded)": 10,
+            "Forelegs (Wounded)": 10,
+            "Wings (Wounded)": 10
+        },
+        "Thunder": {
+            "Head": 10,
+            "Neck": 10,
+            "Body": 10,
+            "Chest": 10,
+            "Forelegs": 10,
+            "Hindlegs": 5,
+            "Wings": 10,
+            "Tail": 5,
+            "Tail Tip": 10,
+            "Head (Wounded)": 10,
+            "Forelegs (Wounded)": 10,
+            "Wings (Wounded)": 10
+        },
+        "Ice": {
+            "Head": 10,
+            "Neck": 10,
+            "Body": 10,
+            "Chest": 10,
+            "Forelegs": 10,
+            "Hindlegs": 5,
+            "Wings": 10,
+            "Tail": 5,
+            "Tail Tip": 10,
+            "Head (Wounded)": 10,
+            "Forelegs (Wounded)": 10,
+            "Wings (Wounded)": 10
+        },
+        "Dragon": {
+            "Head": 20,
+            "Neck": 15,
+            "Body": 15,
+            "Chest": 20,
+            "Forelegs": 20,
+            "Hindlegs": 10,
+            "Wings": 15,
+            "Tail": 10,
+            "Tail Tip": 20,
+            "Head (Wounded)": 20,
+            "Forelegs (Wounded)": 20,
+            "Wings (Wounded)": 15
+        },
+        "Extra": {
+            "Super Critical": "Hitzone values for Xeno'jiiva in super critical state have been moved. Execute the following command to view the data.",
+            "Example": "-hzv xeno'jiiva critical advanced"
+        }
+    }
+}

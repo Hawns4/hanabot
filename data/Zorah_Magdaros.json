@@ -1,0 +1,123 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐",
+            "Blunt": "⭐",
+            "Ranged": "⭐"
+        },
+        "Chest Center (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Chest (Outer)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "❌",
+            "Sleep": "❌",
+            "Paralysis": "❌",
+            "Blast": "❌",
+            "Stun": "❌"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 40,
+            "Body": 30,
+            "Chest (Before Wounded)": 50,
+            "Chest (After Wounded)": 80,
+            "Forelegs": 30,
+            "Hindlegs": 25,
+            "Tail": 25,
+            "Shell": 1,
+            "Weak Shells": 60
+        },
+        "Blunt": {
+            "Head": 40,
+            "Body": 30,
+            "Chest (Before Wounded)": 50,
+            "Chest (After Wounded)": 80,
+            "Forelegs": 30,
+            "Hindlegs": 25,
+            "Tail": 25,
+            "Shell": 1,
+            "Weak Shells": 60
+        },
+        "Ranged": {
+            "Head": 40,
+            "Body": 25,
+            "Chest (Before Wounded)": 30,
+            "Chest (After Wounded)": 80,
+            "Forelegs": 25,
+            "Hindlegs": 20,
+            "Tail": 20,
+            "Shell": 1,
+            "Weak Shells": 50
+        },
+        "Fire": {
+            "Head": 0,
+            "Body": 0,
+            "Chest (Before Wounded)": 0,
+            "Chest (After Wounded)": 0,
+            "Forelegs": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Shell": 0,
+            "Weak Shells": 0
+        },
+        "Water": {
+            "Head": 20,
+            "Body": 10,
+            "Chest (Before Wounded)": 25,
+            "Chest (After Wounded)": 30,
+            "Forelegs": 10,
+            "Hindlegs": 10,
+            "Tail": 10,
+            "Shell": 0,
+            "Weak Shells": 20
+        },
+        "Thunder": {
+            "Head": 10,
+            "Body": 5,
+            "Chest (Before Wounded)": 10,
+            "Chest (After Wounded)": 15,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail": 5,
+            "Shell": 0,
+            "Weak Shells": 10
+        },
+        "Ice": {
+            "Head": 15,
+            "Body": 5,
+            "Chest (Before Wounded)": 20,
+            "Chest (After Wounded)": 25,
+            "Forelegs": 5,
+            "Hindlegs": 5,
+            "Tail": 5,
+            "Shell": 0,
+            "Weak Shells": 15
+        },
+        "Dragon": {
+            "Head": 20,
+            "Body": 10,
+            "Chest (Before Wounded)": 25,
+            "Chest (After Wounded)": 30,
+            "Forelegs": 10,
+            "Hindlegs": 10,
+            "Tail": 10,
+            "Shell": 0,
+            "Weak Shells": 20
+        }
+    }
+}
