@@ -1,28 +1,29 @@
 {
     "Simple": {
         "Head (Breakable)": {
-            "Sever": "",
-            "Blunt": "",
-            "Ranged": ""
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Underbelly (Breakable)": {
-            "Sever": "",
-            "Blunt": "",
-            "Ranged": ""
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐⭐"
         },
         "Elements": {
-            "Fire": "",
-            "Water": "",
-            "Thunder": "",
-            "Ice": "",
-            "Dragon": ""
+            "Fire": "❌(⭐)",
+            "Water": "⭐⭐⭐(⭐⭐)",
+            "Thunder": "⭐⭐(❌)",
+            "Ice": "⭐⭐(❌)",
+            "Dragon": "⭐",
+            "Notes": "() when hardened"
         },
         "Ailments": {
-            "Poison": "",
-            "Sleep": "",
-            "Paralysis": "",
-            "Blast": "",
-            "Stun": ""
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐",
+            "Stun": "⭐⭐"
         }
     },
     "Advanced": {
