@@ -1,0 +1,142 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Belly (Weakpoint)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 60,
+            "Jaw": 18,
+            "Jaw (Wounded)": 55,
+            "Upper Neck": 22,
+            "Lower Neck": 25,
+            "Body": 50,
+            "Back": 20,
+            "Forearms": 25,
+            "Hindlegs": 43,
+            "Tail (Top)": 25,
+            "Tail (Bottom)": 35,
+            "Tail Tip": 25
+        },
+        "Blunt": {
+            "Head": 65,
+            "Jaw": 19,
+            "Jaw (Wounded)": 60,
+            "Upper Neck": 24,
+            "Lower Neck": 30,
+            "Body": 45,
+            "Back": 24,
+            "Forearms": 30,
+            "Hindlegs": 37,
+            "Tail (Top)": 25,
+            "Tail (Bottom)": 30,
+            "Tail Tip": 25
+        },
+        "Ranged": {
+            "Head": 45,
+            "Jaw": 10,
+            "Jaw (Wounded)": 40,
+            "Upper Neck": 10,
+            "Lower Neck": 25,
+            "Body": 45,
+            "Back": 15,
+            "Forearms": 20,
+            "Hindlegs": 20,
+            "Tail (Top)": 15,
+            "Tail (Bottom)": 25,
+            "Tail Tip": 15
+        },
+        "Fire": {
+            "Head": 0,
+            "Jaw": 0,
+            "Jaw (Wounded)": 0,
+            "Upper Neck": 0,
+            "Lower Neck": 0,
+            "Body": 0,
+            "Back": 0,
+            "Forearms": 0,
+            "Hindlegs": 0,
+            "Tail (Top)": 0,
+            "Tail (Bottom)": 0,
+            "Tail Tip": 0
+        },
+        "Water": {
+            "Head": 20,
+            "Jaw": 40,
+            "Jaw (Wounded)": 20,
+            "Upper Neck": 15,
+            "Lower Neck": 20,
+            "Body": 30,
+            "Back": 15,
+            "Forearms": 15,
+            "Hindlegs": 15,
+            "Tail (Top)": 15,
+            "Tail (Bottom)": 25,
+            "Tail Tip": 35
+        },
+        "Thunder": {
+            "Head": 15,
+            "Jaw": 5,
+            "Jaw (Wounded)": 5,
+            "Upper Neck": 0,
+            "Lower Neck": 0,
+            "Body": 5,
+            "Back": 0,
+            "Forearms": 0,
+            "Hindlegs": 0,
+            "Tail (Top)": 0,
+            "Tail (Bottom)": 5,
+            "Tail Tip": 0
+        },
+        "Ice": {
+            "Head": 15,
+            "Jaw": 20,
+            "Jaw (Wounded)": 15,
+            "Upper Neck": 10,
+            "Lower Neck": 10,
+            "Body": 15,
+            "Back": 10,
+            "Forearms": 10,
+            "Hindlegs": 10,
+            "Tail (Top)": 10,
+            "Tail (Bottom)": 10,
+            "Tail Tip": 15
+        },
+        "Dragon": {
+            "Head": 20,
+            "Jaw": 30,
+            "Jaw (Wounded)": 20,
+            "Upper Neck": 15,
+            "Lower Neck": 15,
+            "Body": 30,
+            "Back": 15,
+            "Forearms": 15,
+            "Hindlegs": 15,
+            "Tail (Top)": 15,
+            "Tail (Bottom)": 20,
+            "Tail Tip": 25
+        }
+    }
+}
