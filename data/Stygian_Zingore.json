@@ -1,0 +1,164 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Legs (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Back (Breakable)": {
+            "Sever": "⭐",
+            "Blunt": "⭐",
+            "Ranged": "⭐"
+        },
+        "Elements": {
+            "Fire": "❌(⭐)",
+            "Water": "❌(⭐⭐)",
+            "Thunder": "⭐(⭐⭐⭐)",
+            "Ice": "❌(⭐)",
+            "Dragon": "❌",
+            "Notes": "() when emitting light"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 55,
+            "Neck": 50,
+            "Torso": 30,
+            "Back": 30,
+            "Forelegs": 50,
+            "Hindlegs": 30,
+            "Tail": 40,
+            "Head (Charged)": 45,
+            "Neck (Charged)": 38,
+            "Torso (Charged)": 25,
+            "Back (Charged)": 50,
+            "Forelegs (Charged)": 38,
+            "Hindlegs (Charged)": 25,
+            "Tail (Charged)": 35
+        },
+        "Blunt": {
+            "Head": 55,
+            "Neck": 50,
+            "Torso": 30,
+            "Back": 30,
+            "Forelegs": 50,
+            "Hindlegs": 30,
+            "Tail": 40,
+            "Head (Charged)": 45,
+            "Neck (Charged)": 38,
+            "Torso (Charged)": 25,
+            "Back (Charged)": 50,
+            "Forelegs (Charged)": 38,
+            "Hindlegs (Charged)": 25,
+            "Tail (Charged)": 35
+        },
+        "Ranged": {
+            "Head": 50,
+            "Neck": 45,
+            "Torso": 20,
+            "Back": 20,
+            "Forelegs": 45,
+            "Hindlegs": 20,
+            "Tail": 35,
+            "Head (Charged)": 45,
+            "Neck (Charged)": 33,
+            "Torso (Charged)": 15,
+            "Back (Charged)": 50,
+            "Forelegs (Charged)": 33,
+            "Hindlegs (Charged)": 15,
+            "Tail (Charged)": 25
+        },
+        "Fire": {
+            "Head": 10,
+            "Neck": 8,
+            "Torso": 5,
+            "Back": 3,
+            "Forelegs": 10,
+            "Hindlegs": 5,
+            "Tail": 8,
+            "Head (Charged)": 20,
+            "Neck (Charged)": 15,
+            "Torso (Charged)": 10,
+            "Back (Charged)": 0,
+            "Forelegs (Charged)": 20,
+            "Hindlegs (Charged)": 10,
+            "Tail (Charged)": 15
+        },
+        "Water": {
+            "Head": 13,
+            "Neck": 10,
+            "Torso": 8,
+            "Back": 8,
+            "Forelegs": 13,
+            "Hindlegs": 8,
+            "Tail": 10,
+            "Head (Charged)": 25,
+            "Neck (Charged)": 20,
+            "Torso (Charged)": 15,
+            "Back (Charged)": 0,
+            "Forelegs (Charged)": 25,
+            "Hindlegs (Charged)": 15,
+            "Tail (Charged)": 20
+        },
+        "Thunder": {
+            "Head": 15,
+            "Neck": 13,
+            "Torso": 10,
+            "Back": 10,
+            "Forelegs": 15,
+            "Hindlegs": 10,
+            "Tail": 13,
+            "Head (Charged)": 30,
+            "Neck (Charged)": 25,
+            "Torso (Charged)": 20,
+            "Back (Charged)": 0,
+            "Forelegs (Charged)": 30,
+            "Hindlegs (Charged)": 20,
+            "Tail (Charged)": 25
+        },
+        "Ice": {
+            "Head": 10,
+            "Neck": 8,
+            "Torso": 5,
+            "Back": 3,
+            "Forelegs": 10,
+            "Hindlegs": 5,
+            "Tail": 8,
+            "Head (Charged)": 20,
+            "Neck (Charged)": 15,
+            "Torso (Charged)": 10,
+            "Back (Charged)": 0,
+            "Forelegs (Charged)": 20,
+            "Hindlegs (Charged)": 10,
+            "Tail (Charged)": 15
+        },
+        "Dragon": {
+            "Head": 0,
+            "Neck": 0,
+            "Torso": 0,
+            "Back": 0,
+            "Forelegs": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Head (Charged)": 0,
+            "Neck (Charged)": 0,
+            "Torso (Charged)": 0,
+            "Back (Charged)": 0,
+            "Forelegs (Charged)": 0,
+            "Hindlegs (Charged)": 0,
+            "Tail (Charged)": 0
+        }
+    }
+}
