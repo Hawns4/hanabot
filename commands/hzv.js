@@ -40,7 +40,6 @@ capitalizeArgs = (args) => {
 
 createEmbed = (monsterName, displayType) => {
     let monsterData = JSON.parse(fs.readFileSync(`./data/${monsterName}.json`));
-    // TODO debug not grabbing simple data
     monsterData = monsterData[displayType];
     let embed = new Discord.MessageEmbed();
     embed.setTitle(monsterName.split("_").join(" ")).setDescription(`${displayType} hitzone value data for ${monsterName.split("_").join(" ")}`).attachFiles([`./icons/${monsterName}.png`]).setThumbnail(`attachment://${monsterName}.png`);
