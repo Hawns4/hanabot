@@ -169,8 +169,8 @@
             "Tail": 1
         },
         "Extra": {
-            "": "",
-            "Example": "-hzv Safi'jiiva [broken|critical] advanced"
+            "Sorry": "Due to the amount of data associated with Safi'jiiva and Discord's character limit per message, you must specify the state after typing -hzv safi'jiiva",
+            "Example": "-hzv safi'jiiva [broken|critical] advanced"
         }
     }
 }
