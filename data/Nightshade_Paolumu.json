@@ -1,0 +1,107 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Ears": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Chest (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐",
+            "Dragon": "❌"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 55,
+            "Neck": 35,
+            "Neck Pouch": 70,
+            "Body": 46,
+            "Legs": 30,
+            "Wings": 30,
+            "Tail": 25
+        },
+        "Blunt": {
+            "Head": 60,
+            "Neck": 40,
+            "Neck Pouch": 75,
+            "Body": 46,
+            "Legs": 30,
+            "Wings": 30,
+            "Tail": 25
+        },
+        "Ranged": {
+            "Head": 45,
+            "Neck": 30,
+            "Neck Pouch": 50,
+            "Body": 35,
+            "Legs": 25,
+            "Wings": 40,
+            "Tail": 15
+        },
+        "Fire": {
+            "Head": 15,
+            "Neck": 10,
+            "Neck Pouch": 15,
+            "Body": 10,
+            "Legs": 10,
+            "Wings": 10,
+            "Tail": 10
+        },
+        "Water": {
+            "Head": 25,
+            "Neck": 15,
+            "Neck Pouch": 30,
+            "Body": 15,
+            "Legs": 15,
+            "Wings": 15,
+            "Tail": 15
+        },
+        "Thunder": {
+            "Head": 10,
+            "Neck": 5,
+            "Neck Pouch": 10,
+            "Body": 5,
+            "Legs": 5,
+            "Wings": 5,
+            "Tail": 5
+        },
+        "Ice": {
+            "Head": 10,
+            "Neck": 5,
+            "Neck Pouch": 10,
+            "Body": 5,
+            "Legs": 5,
+            "Wings": 5,
+            "Tail": 5
+        },
+        "Dragon": {
+            "Head": 0,
+            "Neck": 0,
+            "Neck Pouch": 0,
+            "Body": 0,
+            "Legs": 0,
+            "Wings": 0,
+            "Tail": 0
+        }
+    }
+}

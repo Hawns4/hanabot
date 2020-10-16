@@ -1,0 +1,81 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐",
+            "Water": "⭐⭐⭐",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 68,
+            "Forearms": 52,
+            "Body": 45,
+            "Tail": 55,
+            "Rock": 5
+        },
+        "Blunt": {
+            "Head": 68,
+            "Forearms": 56,
+            "Body": 45,
+            "Tail": 50,
+            "Rock": 5
+        },
+        "Ranged": {
+            "Head": 60,
+            "Forearms": 45,
+            "Body": 40,
+            "Tail": 35,
+            "Rock": 5
+        },
+        "Fire": {
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15,
+            "Rock": 5
+        },
+        "Water": {
+            "Head": 20,
+            "Forearms": 20,
+            "Body": 20,
+            "Tail": 20,
+            "Rock": 20
+        },
+        "Thunder": {
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15,
+            "Rock": 5
+        },
+        "Ice": {
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15,
+            "Rock": 5
+        },
+        "Dragon": {
+            "Head": 15,
+            "Forearms": 15,
+            "Body": 15,
+            "Tail": 15,
+            "Rock": 5
+        }
+    }
+}
