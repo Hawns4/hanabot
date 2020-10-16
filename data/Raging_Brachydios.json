@@ -1,0 +1,139 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Front Leg (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐",
+            "Sleep": "⭐⭐",
+            "Paralysis": "⭐⭐",
+            "Blast": "⭐",
+            "Stun": "⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Horn": 60,
+            "Head": 60,
+            "Neck": 32,
+            "Body": 32,
+            "Arms": 55,
+            "Legs": 32,
+            "Tail": 50,
+            "Tail Tip": 18,
+            "Horn (Slime)": 75,
+            "Forearms (Slime)": 75,
+            "Tail Tip (Slime)": 75
+        },
+        "Blunt": {
+            "Horn": 65,
+            "Head": 65,
+            "Neck": 32,
+            "Body": 32,
+            "Arms": 50,
+            "Legs": 32,
+            "Tail": 45,
+            "Tail Tip": 30,
+            "Horn (Slime)": 75,
+            "Forearms (Slime)": 75,
+            "Tail Tip (Slime)": 75
+        },
+        "Ranged": {
+            "Horn": 45,
+            "Head": 50,
+            "Neck": 30,
+            "Body": 30,
+            "Arms": 45,
+            "Legs": 30,
+            "Tail": 55,
+            "Tail Tip": 10,
+            "Horn (Slime)": 10,
+            "Forearms (Slime)": 10,
+            "Tail Tip (Slime)": 10
+        },
+        "Fire": {
+            "Horn": 0,
+            "Head": 0,
+            "Neck": 0,
+            "Body": 0,
+            "Arms": 0,
+            "Legs": 0,
+            "Tail": 0,
+            "Tail Tip": 0,
+            "Horn (Slime)": 0,
+            "Forearms (Slime)": 0,
+            "Tail Tip (Slime)": 0
+        },
+        "Water": {
+            "Horn": 10,
+            "Head": 5,
+            "Neck": 5,
+            "Body": 10,
+            "Arms": 10,
+            "Legs": 5,
+            "Tail": 10,
+            "Tail Tip": 10,
+            "Horn (Slime)": 20,
+            "Forearms (Slime)": 20,
+            "Tail Tip (Slime)": 20
+        },
+        "Thunder": {
+            "Horn": 10,
+            "Head": 10,
+            "Neck": 5,
+            "Body": 5,
+            "Arms": 5,
+            "Legs": 5,
+            "Tail": 10,
+            "Tail Tip": 5,
+            "Horn (Slime)": 0,
+            "Forearms (Slime)": 0,
+            "Tail Tip (Slime)": 0
+        },
+        "Ice": {
+            "Horn": 25,
+            "Head": 15,
+            "Neck": 10,
+            "Body": 15,
+            "Arms": 25,
+            "Legs": 10,
+            "Tail": 15,
+            "Tail Tip": 25,
+            "Horn (Slime)": 5,
+            "Forearms (Slime)": 5,
+            "Tail Tip (Slime)": 5
+        },
+        "Dragon": {
+            "Horn": 5,
+            "Head": 5,
+            "Neck": 5,
+            "Body": 0,
+            "Arms": 0,
+            "Legs": 0,
+            "Tail": 5,
+            "Tail Tip": 10,
+            "Horn (Slime)": 0,
+            "Forearms (Slime)": 0,
+            "Tail Tip (Slime)": 0
+        }
+    }
+}
