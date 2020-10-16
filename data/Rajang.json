@@ -1,0 +1,102 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Tail (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐",
+            "Thunder": "❌",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "❌"
+        },
+        "Ailments": {
+            "Poison": "⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐",
+            "Blast": "⭐❌",
+            "Stun": "⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 60,
+            "Body": 30,
+            "Forelegs": 43,
+            "Forelegs (Hardened)": 10,
+            "Hindlegs": 25,
+            "Tail": 35,
+            "Tail (Hardened)": 47
+        },
+        "Blunt": {
+            "Head": 62,
+            "Body": 35,
+            "Forelegs": 43,
+            "Forelegs (Hardened)": 10,
+            "Hindlegs": 25,
+            "Tail": 32,
+            "Tail (Hardened)": 45
+        },
+        "Ranged": {
+            "Head": 45,
+            "Body": 20,
+            "Forelegs": 35,
+            "Forelegs (Hardened)": 5,
+            "Hindlegs": 15,
+            "Tail": 25,
+            "Tail (Hardened)": 35
+        },
+        "Fire": {
+            "Head": 0,
+            "Body": 0,
+            "Forelegs": 0,
+            "Forelegs (Hardened)": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Tail (Hardened)": 0
+        },
+        "Water": {
+            "Head": 5,
+            "Body": 5,
+            "Forelegs": 5,
+            "Forelegs (Hardened)": 5,
+            "Hindlegs": 5,
+            "Tail": 5,
+            "Tail (Hardened)": 5
+        },
+        "Thunder": {
+            "Head": 0,
+            "Body": 0,
+            "Forelegs": 0,
+            "Forelegs (Hardened)": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Tail (Hardened)": 0
+        },
+        "Ice": {
+            "Head": 30,
+            "Body": 15,
+            "Forelegs": 15,
+            "Forelegs (Hardened)": 15,
+            "Hindlegs": 15,
+            "Tail": 15,
+            "Tail (Hardened)": 15
+        },
+        "Dragon": {
+            "Head": 0,
+            "Body": 0,
+            "Forelegs": 0,
+            "Forelegs (Hardened)": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Tail (Hardened)": 0
+        }
+    }
+}
