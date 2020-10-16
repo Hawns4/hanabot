@@ -1,0 +1,115 @@
+{
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Chest (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐⭐"
+        },
+        "Claws (Breakable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Elements": {
+            "Fire": "⭐⭐⭐",
+            "Water": "❌",
+            "Thunder": "⭐⭐",
+            "Ice": "⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐⭐⭐",
+            "Sleep": "⭐⭐⭐",
+            "Paralysis": "⭐⭐⭐",
+            "Blast": "⭐⭐⭐",
+            "Stun": "⭐⭐⭐"
+        }
+    },
+    "Advanced": {
+        "Sever": {
+            "Head": 65,
+            "Neck": 50,
+            "Body": 50,
+            "Back": 45,
+            "Forelegs": 50,
+            "Hindlegs": 45,
+            "Tail": 45,
+            "Stomach (Inflated)": 70
+        },
+        "Blunt": {
+            "Head": 70,
+            "Neck": 55,
+            "Body": 45,
+            "Back": 40,
+            "Forelegs": 45,
+            "Hindlegs": 40,
+            "Tail": 45,
+            "Stomach (Inflated)": 75
+        },
+        "Ranged": {
+            "Head": 60,
+            "Neck": 45,
+            "Body": 40,
+            "Back": 35,
+            "Forelegs": 45,
+            "Hindlegs": 35,
+            "Tail": 40,
+            "Stomach (Inflated)": 65
+        },
+        "Fire": {
+            "Head": 30,
+            "Neck": 20,
+            "Body": 20,
+            "Back": 15,
+            "Forelegs": 25,
+            "Hindlegs": 15,
+            "Tail": 15,
+            "Stomach (Inflated)": 30
+        },
+        "Water": {
+            "Head": 0,
+            "Neck": 0,
+            "Body": 0,
+            "Back": 0,
+            "Forelegs": 0,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Stomach (Inflated)": 0
+        },
+        "Thunder": {
+            "Head": 20,
+            "Neck": 10,
+            "Body": 10,
+            "Back": 5,
+            "Forelegs": 15,
+            "Hindlegs": 5,
+            "Tail": 5,
+            "Stomach (Inflated)": 20
+        },
+        "Ice": {
+            "Head": 15,
+            "Neck": 5,
+            "Body": 5,
+            "Back": 5,
+            "Forelegs": 10,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Stomach (Inflated)": 15
+        },
+        "Dragon": {
+            "Head": 10,
+            "Neck": 5,
+            "Body": 0,
+            "Back": 0,
+            "Forelegs": 5,
+            "Hindlegs": 0,
+            "Tail": 0,
+            "Stomach (Inflated)": 10
+        }
+    }
+}
