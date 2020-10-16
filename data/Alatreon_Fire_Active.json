@@ -1,4 +1,35 @@
 {
+    "Simple": {
+        "Head (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Tail (Severable)": {
+            "Sever": "⭐⭐",
+            "Blunt": "⭐⭐",
+            "Ranged": "⭐⭐"
+        },
+        "Forelegs (Breakable)": {
+            "Sever": "⭐⭐⭐",
+            "Blunt": "⭐⭐⭐",
+            "Ranged": "⭐"
+        },
+        "Elements": {
+            "Fire": "❌",
+            "Water": "⭐⭐",
+            "Thunder": "⭐",
+            "Ice": "⭐⭐⭐",
+            "Dragon": "⭐"
+        },
+        "Ailments": {
+            "Poison": "⭐",
+            "Sleep": "⭐",
+            "Paralysis": "⭐",
+            "Blast": "⭐",
+            "Stun": "⭐"
+        }
+    },
     "Advanced": {
         "Sever": {
             "Head": 85,
